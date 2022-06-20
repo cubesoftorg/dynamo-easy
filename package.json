@@ -1,6 +1,6 @@
 {
   "name": "@cubesoft/dynamo-easy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "DynamoDB client for NodeJS and browser with a fluent api to build requests. We take care of the type mapping between JS and DynamoDB, customizable trough typescript decorators.",
   "keywords": [
     "api",
