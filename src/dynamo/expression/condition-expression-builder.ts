@@ -56,7 +56,7 @@ export function deepFilter(obj: any, filterFn: (value: any) => boolean): any {
       }
     })
 
-    return returnArr.length ? returnArr : null
+    return returnArr
   } else if (obj instanceof Set) {
     const returnArr: any[] = []
     Array.from(obj).forEach((i) => {
